@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  testopenshiftapi:
+    image: testopenshiftapi
+    build:
+      context: .
+      dockerfile: TestOpenShiftApi/Dockerfile

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOpenShiftApi", "TestOpenShiftApi\TestOpenShiftApi.csproj", "{15C60D87-CCFF-4B9D-BA1D-59DA3A51EF00}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BAA69CF7-22C3-474B-B65B-DA9FF234E235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C60D87-CCFF-4B9D-BA1D-59DA3A51EF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C60D87-CCFF-4B9D-BA1D-59DA3A51EF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C60D87-CCFF-4B9D-BA1D-59DA3A51EF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C60D87-CCFF-4B9D-BA1D-59DA3A51EF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA69CF7-22C3-474B-B65B-DA9FF234E235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA69CF7-22C3-474B-B65B-DA9FF234E235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA69CF7-22C3-474B-B65B-DA9FF234E235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA69CF7-22C3-474B-B65B-DA9FF234E235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59916866-BC7E-4548-8B68-E5478DF09EDD}
+	EndGlobalSection
+EndGlobal
